@@ -15,7 +15,7 @@ footer {
 }
 
 .page-footer {
-  padding-top: 5px
+  padding: 8px 0px 8px 0px;
 }
 
 #expLists {
@@ -53,5 +53,20 @@ footer {
   margin-bottom: 34px
 }
 
+.footer-text {
+  display: flex;
+  justify-content: space-around;
+  align-items: center
+}
+
+#gitHubLink {
+  height: 30px;
+  width: 30px
+}
+
+#linkedInLink {
+  height: 50px;
+  width: 50px
+}
 
       
