@@ -17,4 +17,12 @@ footer {
 #expLists {
   list-style: disc;
 }
+
+.techIMG {
+  width: 90px !important;
+  height: 90px !important;
+  margin: 1px
+}
+
+
       
