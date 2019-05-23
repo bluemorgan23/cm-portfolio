@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap
+}
+
+.page-footer {
+  padding: 8px 0px 8px 0px;
+}
+
+#expLists {
+  list-style: disc;
+}
+
+.techIMG {
+  width: 90px !important;
+  height: 90px !important;
+  margin: 1px
+}
+
+.card-title {
+  text-align: center
+}
+
+.techTitle {
+  margin-bottom: 10px
+}
+
+.container {
+  width: 90%
+}
+
+.navBarLinks {
+  display: flex;
+  justify-content: space-around
+}
+
+.navBarLinks * {
+  font-size: 1.5em
+}
+
+.noRows {
+  margin-bottom: 34px
+}
+
+.footer-text {
+  display: flex;
+  justify-content: space-around;
+  align-items: center
+}
+
+#gitHubLink {
+  height: 30px;
+  width: 30px
+}
+
+#linkedInLink {
+  height: 50px;
+  width: 50px
+}
+
+#aboutMe {
+  font-size: 1.1em
+}
+
+      
