@@ -73,4 +73,28 @@ footer {
   font-size: 1.1em
 }
 
+.mainHead {
+  display: inline-block;
+}
+
+.typed-cursor {
+  font-size: 70px;
+  opacity: 1;
+}
+
+.project {
+  max-width: 50%;
+  text-align: center;
+}
+
+#projectLink {
+  margin : 10px !important
+}
+
+.projectDescription {
+  text-align: left;
+}
+
+
+
       
