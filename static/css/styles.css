@@ -70,31 +70,41 @@ footer {
 }
 
 #aboutMe {
-  font-size: 1.1em
+  font-size: 1.2em
 }
 
 .mainHead {
-  display: inline-block;
+  display: inline;
 }
 
 .typed-cursor {
   font-size: 70px;
-  opacity: 1;
+  opacity: 0.8 !important;
 }
 
 .project {
-  max-width: 50%;
+  max-width: 300px;
+  max-height: 500px;
   text-align: center;
 }
 
-#projectLink {
-  margin : 10px !important
+.listOfProjects {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 
 .projectDescription {
   text-align: left;
 }
 
+header {
+  text-align: center;
+}
+
+.headContainer {
+  height: 110px;
+}
 
 
       
