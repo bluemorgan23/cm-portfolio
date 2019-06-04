@@ -12,7 +12,11 @@
 
     <title>Chris Blue Morgan, Software Developer in Nashville Tennessee</title>
 </head>
-
+<script>
+        var mobilevideo = document.getElementsByTagName("video")[0];
+        mobilevideo.setAttribute("playsinline", "");
+        mobilevideo.setAttribute("muted", "");
+</script>
 <body class="light-green lighten-1">
     <div class="navbar-fixed">
         <nav>
@@ -30,8 +34,10 @@
     <div id="overlay">
         <div class="container headContainer">
             <div id="about"></div>
+            
             <header>
                 <h1 class="mainHead white-text"></h1>
+                
             </header>
         </div>
         <div class="parallax">
