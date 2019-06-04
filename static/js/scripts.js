@@ -16,3 +16,5 @@ let options = {
 
 let typed = new Typed(".mainHead", options);
 
+
+
