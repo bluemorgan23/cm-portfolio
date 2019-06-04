@@ -4,11 +4,12 @@ body {
   flex-direction: column;
   font-family: "Open Sans", sans-serif;
   height: 100%;
+  background-color: #2F4219 !important;
 }
 
 main {
   flex: 1 0 auto;
-  margin-top: 100px;
+  margin-top: 20px;
 }
 
 footer {
@@ -19,8 +20,8 @@ footer {
 
 nav {
   height: auto;
-  width: auto;
-  position: inherit !important;
+  width: 100%;
+  background-color: black;
 }
 
 .page-footer {
@@ -39,7 +40,7 @@ nav {
 
 .card-title {
   text-align: center;
-  font-size: 3em !important;
+  font-size: 2.3em !important;
   margin-bottom: 10px !important;
   font-family: 'Oleo Script', cursive;
   /* text-decoration: underline; */
@@ -61,7 +62,8 @@ nav {
 }
 
 .navBarLinks * {
-  font-size: 1.5em
+  font-size: 1.1em;
+  font-weight: 800;
 }
 
 .noRows {
@@ -94,8 +96,10 @@ nav {
 }
 
 .typed-cursor {
-  font-size: 70px;
+  font-size: 50px;
   opacity: 0.8 !important;
+  margin-bottom: 5px;
+  margin-left: -8px;
 }
 
 .project {
@@ -117,6 +121,11 @@ nav {
 
 header {
   text-align: center;
+}
+
+header > h1 {
+  font-size: 2.7em;
+  margin-left: 20px;
 }
 
 .headContainer {
@@ -145,18 +154,18 @@ h1 {
 
 #overlay {
   background-color: rgba(0, 0, 0, .65);
-  height: 150px;
-  position: relative;
+  height: 90px;
   transition: background-color 300ms ease;
   width: 100%;
-  margin-top: 10px;
-  top: 50px;
+  margin-top: 50px;
+  
+  /* top: 100px; */
 }
 
 
 video {
   position: relative;
-  top: -40px;
+  top: -48px;
   left: 50%;
   /* min-width: 375px;
       min-height: 400px; */
@@ -168,13 +177,14 @@ video {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-blend-mode: overlay;
 }
 
 .parallax {
   /* The image used */
   background-clip: url("/static/img/waterfall.mp4");
   position: relative;
-
+  top: 0;
   width: auto;
   height: auto;
   /* Create the parallax scrolling effect */
@@ -185,12 +195,10 @@ video {
 
 }
 
-.myIMG {
-  height: 100px !important;
-  width: 150px !important;
-  transform: rotate(90deg);
-}
-
 .tech {
   text-align: center;
 }
+
+/* .nav-wrapper {
+  background-color: #283313 !important;
+} */
