@@ -16,5 +16,8 @@ let options = {
 
 let typed = new Typed(".mainHead", options);
 
+let video = document.querySelector("#waterfall-vid");
+video.setAttribute("playsinline", true);
+
 
 
