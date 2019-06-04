@@ -175,5 +175,11 @@ h1 {
         
       }
 
+      .myIMG {
+        height: 100px !important;
+        width: 150px !important;
+        transform: rotate(90deg);
+      }
+
 
       
