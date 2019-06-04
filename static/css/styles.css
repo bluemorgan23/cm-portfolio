@@ -34,8 +34,8 @@ nav {
 }
 
 .techIMG {
-  width: 90px !important;
-  height: 90px !important;
+  width: 80px !important;
+  height: 80px !important;
   margin: 1px
 }
 
@@ -119,7 +119,6 @@ nav {
 
 header {
   text-align: center;
-  
 }
 
 .headContainer {
@@ -161,8 +160,8 @@ h1 {
       position: relative;
       top: -40px;
       left: 50%;
-      min-width: 420px;
-      min-height: 400px;
+      /* min-width: 375px;
+      min-height: 400px; */
       width: 100%;
       height: 100%;
       z-index: -100;
@@ -176,6 +175,7 @@ h1 {
       .parallax {
           /* The image used */
           background-clip: url("/static/img/waterfall.mp4");
+          position: relative;
         
           width: auto;
           height: auto;
