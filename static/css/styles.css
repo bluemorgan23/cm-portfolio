@@ -1,5 +1,3 @@
-
-
 body {
   display: flex;
   min-height: 100vh;
@@ -29,7 +27,7 @@ nav {
   padding: 8px 0px 8px 0px;
 }
 
-.expLists  {
+.expLists {
   list-style: disc !important;
 }
 
@@ -145,53 +143,54 @@ h1 {
   align-items: center;
 }
 
- #overlay {
-  background-color:rgba(0,0,0,.65);
-  height:150px;
+#overlay {
+  background-color: rgba(0, 0, 0, .65);
+  height: 150px;
   position: relative;
-  transition:background-color 300ms ease;
-  width:100%;
+  transition: background-color 300ms ease;
+  width: 100%;
   margin-top: 10px;
   top: 50px;
-  }
+}
 
 
-    video {
-      position: relative;
-      top: -40px;
-      left: 50%;
-      /* min-width: 375px;
+video {
+  position: relative;
+  top: -40px;
+  left: 50%;
+  /* min-width: 375px;
       min-height: 400px; */
-      width: 100%;
-      height: 100%;
-      z-index: -100;
-      transform: translateX(-50%) translateY(-50%);
-      background-attachment: fixed;
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: cover;
-      }
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-      .parallax {
-          /* The image used */
-          background-clip: url("/static/img/waterfall.mp4");
-          position: relative;
-        
-          width: auto;
-          height: auto;
-          /* Create the parallax scrolling effect */
-          background-attachment: fixed;
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: cover;
-        
-      }
+.parallax {
+  /* The image used */
+  background-clip: url("/static/img/waterfall.mp4");
+  position: relative;
 
-      .myIMG {
-        height: 100px !important;
-        width: 150px !important;
-        transform: rotate(90deg);
-      }
+  width: auto;
+  height: auto;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
+}
 
-      
+.myIMG {
+  height: 100px !important;
+  width: 150px !important;
+  transform: rotate(90deg);
+}
+
+.tech {
+  text-align: center;
+}
