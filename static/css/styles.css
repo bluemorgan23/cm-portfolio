@@ -16,18 +16,18 @@ footer {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  background-color: #948256 !important;
+  background-color: #706A4A !important;
 }
 
 nav {
   height: auto;
   width: 100%;
-  background-color: black;
 }
+
 
 .page-footer {
   padding: 8px 0px 8px 0px;
-  background-color: #948256 !important;
+  background-color: #706A4A !important;
 }
 
 .expLists {
@@ -77,7 +77,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  background-color: #948256 !important;
+  background-color: #706A4A !important;
 }
 
 #gitHubLink {
@@ -185,7 +185,6 @@ video {
 
 .parallax {
   /* The image used */
-  background-clip: url("/static/img/waterfall.mp4");
   position: relative;
   top: 0;
   width: auto;
@@ -204,7 +203,7 @@ video {
 }
 
 .card {
-  background-color: #DFCB9D !important;
+  background-color: #FFF6C2 !important;
 }
 
 /* .nav-wrapper {
